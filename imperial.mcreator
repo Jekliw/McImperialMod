@@ -270,6 +270,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stalowe_hoe_recipe"
+    },
+    {
+      "name": "Gruszka",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gruszka"
     }
   ],
   "variable_elements": [],
@@ -280,6 +289,7 @@
       "item.imperial.stalowe_shovel": "Stalowa £opata",
       "block.imperial.stalowe_stairs": "Stalowe Schody",
       "block.imperial.stalowe_pressure_plate": "Stalowa P³yta Naciskowa",
+      "item.imperial.gruszka": "Gruszka",
       "block.imperial.stalowe_fence": "Stalowa Furtka",
       "block.imperial.stalowe_planks": "Stalowe Deski",
       "item.imperial.stalowe_axe": "Stalowa Siekiera",
@@ -297,6 +307,7 @@
       "item.imperial.stalowe_shovel": "Stalowe Shovel",
       "block.imperial.stalowe_stairs": "Stalowe Stairs",
       "block.imperial.stalowe_pressure_plate": "Stalowe Pressure Plate",
+      "item.imperial.gruszka": "Gruszka",
       "block.imperial.stalowe_fence": "Stalowe Fence",
       "block.imperial.stalowe_planks": "Stalowe Planks",
       "item.imperial.stalowe_axe": "Stalowe Axe",
