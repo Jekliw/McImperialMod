@@ -1,0 +1,13 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:stalowe_log"
+    }
+  ],
+  "result": {
+    "item": "imperial:stalowe_planks",
+    "count": 4
+  }
+}

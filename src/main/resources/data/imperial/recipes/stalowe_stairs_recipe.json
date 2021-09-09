@@ -1,0 +1,33 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "imperial:stalowe_planks"
+    },
+    "3": {
+      "item": "imperial:stalowe_planks"
+    },
+    "4": {
+      "item": "imperial:stalowe_planks"
+    },
+    "6": {
+      "item": "imperial:stalowe_planks"
+    },
+    "7": {
+      "item": "imperial:stalowe_planks"
+    },
+    "8": {
+      "item": "imperial:stalowe_planks"
+    }
+  },
+  "result": {
+    "item": "imperial:stalowe_stairs",
+    "count": 4
+  }
+}

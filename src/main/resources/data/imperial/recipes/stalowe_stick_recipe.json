@@ -1,0 +1,20 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "imperial:stalowe_planks"
+    },
+    "1": {
+      "item": "imperial:stalowe_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

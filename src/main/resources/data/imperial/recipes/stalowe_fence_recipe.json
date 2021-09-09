@@ -1,0 +1,32 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "imperial:stalowe_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "imperial:stalowe_planks"
+    },
+    "3": {
+      "item": "imperial:stalowe_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "imperial:stalowe_planks"
+    }
+  },
+  "result": {
+    "item": "imperial:stalowe_fence",
+    "count": 3
+  }
+}

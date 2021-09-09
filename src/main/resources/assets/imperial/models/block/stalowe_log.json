@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "imperial:blocks/stalowe_log_top",
+    "up": "imperial:blocks/stalowe_log_top",
+    "north": "imperial:blocks/stalowe_log_side",
+    "east": "imperial:blocks/stalowe_log_side",
+    "south": "imperial:blocks/stalowe_log_side",
+    "west": "imperial:blocks/stalowe_log_side",
+    "particle": "imperial:blocks/stalowe_log_top"
+  }
+}

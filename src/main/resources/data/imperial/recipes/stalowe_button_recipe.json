@@ -1,0 +1,13 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "imperial:stalowe_planks"
+    }
+  ],
+  "result": {
+    "item": "imperial:stalowe_button",
+    "count": 1
+  }
+}

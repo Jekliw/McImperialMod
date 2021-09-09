@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "imperial:blocks/stalowe_planks"
+  }
+}

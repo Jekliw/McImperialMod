@@ -1,0 +1,30 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "imperial:stalowe_planks"
+    },
+    "1": {
+      "item": "imperial:stalowe_planks"
+    },
+    "2": {
+      "item": "imperial:stalowe_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "imperial:stalowe_pickaxe",
+    "count": 1
+  }
+}

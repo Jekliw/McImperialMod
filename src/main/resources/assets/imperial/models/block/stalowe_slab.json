@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "imperial:blocks/stalowe_planks",
+    "top": "imperial:blocks/stalowe_planks",
+    "side": "imperial:blocks/stalowe_planks"
+  }
+}

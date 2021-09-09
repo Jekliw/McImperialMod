@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "imperial:block/stalowe_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "imperial:block/stalowe_log"
+    },
+    "axis=z": {
+      "model": "imperial:block/stalowe_log",
+      "x": 90
+    }
+  }
+}

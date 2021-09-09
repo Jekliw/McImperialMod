@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "imperial:block/stalowe_slab"
+    },
+    "type=top": {
+      "model": "imperial:block/stalowe_slab_top"
+    },
+    "type=double": {
+      "model": "imperial:block/stalowe_slab_full"
+    }
+  }
+}

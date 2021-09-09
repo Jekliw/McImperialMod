@@ -1,0 +1,26 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "imperial:stalowe_log"
+    },
+    "1": {
+      "item": "imperial:stalowe_log"
+    },
+    "2": {
+      "item": "imperial:stalowe_log"
+    },
+    "3": {
+      "item": "imperial:stalowe_log"
+    }
+  },
+  "result": {
+    "item": "imperial:stalowe_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "StaloweWood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_wood"
+    },
+    {
+      "name": "StaloweLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_log"
+    },
+    {
+      "name": "StalowePlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_planks"
+    },
+    {
+      "name": "StaloweLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_leaves"
+    },
+    {
+      "name": "StaloweStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_stairs"
+    },
+    {
+      "name": "StaloweSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_slab"
+    },
+    {
+      "name": "StaloweFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_fence"
+    },
+    {
+      "name": "StaloweFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_fence_gate"
+    },
+    {
+      "name": "StalowePressurePlate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_pressure_plate"
+    },
+    {
+      "name": "StaloweButton",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_button"
+    },
+    {
+      "name": "StaloweItemsTag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_items_tag"
+    },
+    {
+      "name": "StaloweWoodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_wood_recipe"
+    },
+    {
+      "name": "StalowePlanksRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_planks_recipe"
+    },
+    {
+      "name": "StaloweStairsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_stairs_recipe"
+    },
+    {
+      "name": "StaloweSlabRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_slab_recipe"
+    },
+    {
+      "name": "StaloweFenceRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_fence_recipe"
+    },
+    {
+      "name": "StaloweFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_fence_gate_recipe"
+    },
+    {
+      "name": "StalowePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_pressure_plate_recipe"
+    },
+    {
+      "name": "StaloweButtonRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_button_recipe"
+    },
+    {
+      "name": "StaloweStickRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_stick_recipe"
+    },
+    {
+      "name": "StalowePickaxe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_pickaxe"
+    },
+    {
+      "name": "StaloweAxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_axe"
+    },
+    {
+      "name": "StaloweSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_sword"
+    },
+    {
+      "name": "StaloweShovel",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_shovel"
+    },
+    {
+      "name": "StaloweHoe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_hoe"
+    },
+    {
+      "name": "StalowePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_pickaxe_recipe"
+    },
+    {
+      "name": "StaloweAxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_axe_recipe"
+    },
+    {
+      "name": "StaloweSwordRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_sword_recipe"
+    },
+    {
+      "name": "StaloweShovelRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_shovel_recipe"
+    },
+    {
+      "name": "StaloweHoeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stalowe_hoe_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "pl_pl": {
+      "block.imperial.stalowe_fence_gate": "Stalowy P³ot",
+      "item.imperial.stalowe_shovel": "Stalowa £opata",
+      "block.imperial.stalowe_stairs": "Stalowe Schody",
+      "block.imperial.stalowe_pressure_plate": "Stalowa P³yta Naciskowa",
+      "block.imperial.stalowe_fence": "Stalowa Furtka",
+      "block.imperial.stalowe_planks": "Stalowe Deski",
+      "item.imperial.stalowe_axe": "Stalowa Siekiera",
+      "block.imperial.stalowe_button": "Stalowy Przycisk",
+      "item.imperial.stalowe_pickaxe": "Stalowy Kilof",
+      "block.imperial.stalowe_slab": "Stalowe P³yty",
+      "item.imperial.stalowe_sword": "Stalowy Miecz",
+      "block.imperial.stalowe_log": "Stalowa K³oda",
+      "block.imperial.stalowe_leaves": "Stalowe Liœcie",
+      "block.imperial.stalowe_wood": "Stalowe Drewno",
+      "item.imperial.stalowe_hoe": "Stalowa Motyka"
+    },
+    "en_us": {
+      "block.imperial.stalowe_fence_gate": "Stalowe Fence Gate",
+      "item.imperial.stalowe_shovel": "Stalowe Shovel",
+      "block.imperial.stalowe_stairs": "Stalowe Stairs",
+      "block.imperial.stalowe_pressure_plate": "Stalowe Pressure Plate",
+      "block.imperial.stalowe_fence": "Stalowe Fence",
+      "block.imperial.stalowe_planks": "Stalowe Planks",
+      "item.imperial.stalowe_axe": "Stalowe Axe",
+      "block.imperial.stalowe_button": "Stalowe Button",
+      "item.imperial.stalowe_pickaxe": "Stalowe Pickaxe",
+      "block.imperial.stalowe_slab": "Stalowe Slab",
+      "item.imperial.stalowe_sword": "Stalowe Sword",
+      "block.imperial.stalowe_log": "Stalowe Log",
+      "block.imperial.stalowe_leaves": "Stalowe Leaves",
+      "block.imperial.stalowe_wood": "Stalowe Wood",
+      "item.imperial.stalowe_hoe": "Stalowe Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "imperial",
+    "modName": "Imperial",
+    "version": "1.0.0",
+    "author": "Jakub, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.imperial",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
