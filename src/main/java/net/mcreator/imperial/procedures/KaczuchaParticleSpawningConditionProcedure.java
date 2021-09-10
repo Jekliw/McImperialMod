@@ -49,7 +49,7 @@ public class KaczuchaParticleSpawningConditionProcedure {
 				entity.remove();
 			if (world instanceof World && !world.isRemote()) {
 				ItemEntity entityToSpawn = new ItemEntity((World) world, x, y, z, new ItemStack(GruszkaItem.block));
-				entityToSpawn.setPickupDelay((int) 999);
+				entityToSpawn.setPickupDelay((int) 1);
 				entityToSpawn.setNoDespawn();
 				world.addEntity(entityToSpawn);
 			}

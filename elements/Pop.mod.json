@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": ":D",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": ":D",
+          "x": 417,
+          "y": 230
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

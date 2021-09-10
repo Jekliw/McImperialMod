@@ -16,7 +16,7 @@
     "saturation": 0.6,
     "eatingSpeed": 32,
     "resultItem": {
-      "value": ""
+      "value": "Blocks.LOG"
     },
     "forDogs": false,
     "isAlwaysEdible": false,
