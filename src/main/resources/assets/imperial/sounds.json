@@ -1,1 +1,12 @@
-{}
+{
+  "glorytoarztocka": {
+    "category": "music",
+    "subtitle": "subtitles.glorytoarztocka",
+    "sounds": [
+      {
+        "name": "imperial:theme",
+        "stream": true
+      }
+    ]
+  }
+}

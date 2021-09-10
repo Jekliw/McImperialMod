@@ -633,10 +633,116 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "balonikrec"
+    },
+    {
+      "name": "KaczuchaParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaczucha_particle_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaczuchaThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaczucha_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaczuchaOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaczucha_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kaczucha",
+      "type": "livingentity",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kaczucha"
+    },
+    {
+      "name": "MusicPassport",
+      "type": "musicdisc",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_passport"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "glorytoarztocka",
+      "files": [
+        "theme"
+      ],
+      "category": "music",
+      "subtitle": "Glory to Arztocka"
+    }
+  ],
   "language_map": {
     "pl_pl": {
       "block.imperial.stalowe_fence_gate": "Stalowy P³ot",
@@ -645,6 +751,7 @@
       "item.imperial.infected_ingot": "Infected",
       "block.imperial.uran_ore": "Uran Ore",
       "block.imperial.infected_ore": "Infected Ore",
+      "item.imperial.music_passport": "Music Passport",
       "item.imperial.infected_armor_leggings": "Infected Leggings",
       "item.imperial.stalowe_axe": "Stalowa Siekiera",
       "block.imperial.stalowe_button": "Stalowy Przycisk",
@@ -654,11 +761,13 @@
       "item.imperial.infected_pickaxe": "Infected Pickaxe",
       "block.imperial.stalowe_leaves": "Stalowe Liœcie",
       "block.imperial.infected_block": "Block of Infected",
+      "subtitles.glorytoarztocka": "Glory to Arztocka",
       "enchantment.imperial.nuclear_reaction": "Nuclear Reaction",
       "item.imperial.balonik": "Balonik",
       "item.imperial.stalowe_shovel": "Stalowa £opata",
       "item.imperial.gruszka": "Gruszka",
       "item.imperial.uran_ingot": "Uran",
+      "entity.imperial.kaczucha": "Kaczucha",
       "item.imperial.infected_armor_chestplate": "Infected Chestplate",
       "effect.radiation": "Radjacja",
       "block.imperial.stalowe_fence": "Stalowa Furtka",
@@ -666,6 +775,7 @@
       "item.imperial.infected_axe": "Infected Axe",
       "item.imperial.infected_armor_helmet": "Infected Helmet",
       "block.imperial.stalowe_planks": "Stalowe Deski",
+      "item.imperial.kaczucha_spawn_egg": "Kaczucha Spawn Egg",
       "item.imperial.stalowe_pickaxe": "Stalowy Kilof",
       "block.imperial.stalowe_slab": "Stalowe P³yty",
       "item.imperial.stalowe_sword": "Stalowy Miecz",
@@ -673,6 +783,7 @@
       "item.imperial.infected_hoe": "Infected Hoe",
       "advancements.poczatki.title": "Poczatki",
       "block.imperial.stalowe_wood": "Stalowe Drewno",
+      "item.imperial.music_passport.desc": "Prime Minister",
       "item.imperial.stalowe_hoe": "Stalowa Motyka",
       "item.imperial.infected_armor_boots": "Infected Boots"
     },
@@ -683,6 +794,7 @@
       "item.imperial.infected_ingot": "Infected",
       "block.imperial.uran_ore": "Uran Ore",
       "block.imperial.infected_ore": "Infected Ore",
+      "item.imperial.music_passport": "Music Passport",
       "item.imperial.infected_armor_leggings": "Infected Leggings",
       "item.imperial.stalowe_axe": "Stalowe Axe",
       "block.imperial.stalowe_button": "Stalowe Button",
@@ -692,11 +804,13 @@
       "item.imperial.infected_pickaxe": "Infected Pickaxe",
       "block.imperial.stalowe_leaves": "Stalowe Leaves",
       "block.imperial.infected_block": "Block of Infected",
+      "subtitles.glorytoarztocka": "Glory to Arztocka",
       "enchantment.imperial.nuclear_reaction": "Nuclear Reaction",
       "item.imperial.balonik": "Balonik",
       "item.imperial.stalowe_shovel": "Stalowe Shovel",
       "item.imperial.gruszka": "Gruszka",
       "item.imperial.uran_ingot": "Uran",
+      "entity.imperial.kaczucha": "Kaczucha",
       "item.imperial.infected_armor_chestplate": "Infected Chestplate",
       "effect.radiation": "Radjacja",
       "block.imperial.stalowe_fence": "Stalowe Fence",
@@ -704,6 +818,7 @@
       "item.imperial.infected_axe": "Infected Axe",
       "item.imperial.infected_armor_helmet": "Infected Helmet",
       "block.imperial.stalowe_planks": "Stalowe Planks",
+      "item.imperial.kaczucha_spawn_egg": "Kaczucha Spawn Egg",
       "item.imperial.stalowe_pickaxe": "Stalowe Pickaxe",
       "block.imperial.stalowe_slab": "Stalowe Slab",
       "item.imperial.stalowe_sword": "Stalowe Sword",
@@ -711,6 +826,7 @@
       "item.imperial.infected_hoe": "Infected Hoe",
       "advancements.poczatki.title": "Poczatki",
       "block.imperial.stalowe_wood": "Stalowe Wood",
+      "item.imperial.music_passport.desc": "Prime Minister",
       "item.imperial.stalowe_hoe": "Stalowe Hoe",
       "item.imperial.infected_armor_boots": "Infected Boots"
     }

@@ -45,6 +45,8 @@ public class ImperialModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ImperialModElements() {
+		sounds.put(new ResourceLocation("imperial", "glorytoarztocka"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("imperial", "glorytoarztocka")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("imperial").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "arztockadisc",
+    "name": "Music Passport",
+    "description": "Prime Minister",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:glorytoarztocka"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}
