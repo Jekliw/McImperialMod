@@ -537,6 +537,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "infected_armor_boots_recipe"
+    },
+    {
+      "name": "NuclearReaction",
+      "type": "enchantment",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuclear_reaction"
     }
   ],
   "variable_elements": [],
@@ -558,6 +567,7 @@
       "item.imperial.infected_pickaxe": "Infected Pickaxe",
       "block.imperial.stalowe_leaves": "Stalowe Liœcie",
       "block.imperial.infected_block": "Block of Infected",
+      "enchantment.imperial.nuclear_reaction": "Nuclear Reaction",
       "item.imperial.stalowe_shovel": "Stalowa £opata",
       "item.imperial.gruszka": "Gruszka",
       "item.imperial.uran_ingot": "Uran",
@@ -593,6 +603,7 @@
       "item.imperial.infected_pickaxe": "Infected Pickaxe",
       "block.imperial.stalowe_leaves": "Stalowe Leaves",
       "block.imperial.infected_block": "Block of Infected",
+      "enchantment.imperial.nuclear_reaction": "Nuclear Reaction",
       "item.imperial.stalowe_shovel": "Stalowe Shovel",
       "item.imperial.gruszka": "Gruszka",
       "item.imperial.uran_ingot": "Uran",
