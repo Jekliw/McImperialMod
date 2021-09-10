@@ -546,6 +546,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nuclear_reaction"
+    },
+    {
+      "name": "RadiationEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "radiation_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radiation",
+      "type": "potioneffect",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "radiation"
     }
   ],
   "variable_elements": [],
@@ -572,6 +598,7 @@
       "item.imperial.gruszka": "Gruszka",
       "item.imperial.uran_ingot": "Uran",
       "item.imperial.infected_armor_chestplate": "Infected Chestplate",
+      "effect.radiation": "Radjacja",
       "block.imperial.stalowe_fence": "Stalowa Furtka",
       "item.imperial.infected_sword": "Infected Sword",
       "item.imperial.infected_axe": "Infected Axe",
@@ -608,6 +635,7 @@
       "item.imperial.gruszka": "Gruszka",
       "item.imperial.uran_ingot": "Uran",
       "item.imperial.infected_armor_chestplate": "Infected Chestplate",
+      "effect.radiation": "Radjacja",
       "block.imperial.stalowe_fence": "Stalowe Fence",
       "item.imperial.infected_sword": "Infected Sword",
       "item.imperial.infected_axe": "Infected Axe",
