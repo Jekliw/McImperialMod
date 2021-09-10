@@ -25,6 +25,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.passive.AnimalEntity;
+import net.minecraft.entity.passive.AmbientEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -32,6 +33,7 @@ import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
+import net.minecraft.entity.ai.goal.BreakBlockGoal;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.SpawnReason;
@@ -41,6 +43,8 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
+import net.minecraft.entity.AgeableEntity;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.imperial.procedures.KaczuchaThisEntityKillsAnotherOneProcedure;
@@ -80,7 +84,7 @@ public class KaczuchaEntity extends ImperialModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 100);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 1000);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 4);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 100);
@@ -112,9 +116,12 @@ public class KaczuchaEntity extends ImperialModElements.ModElement {
 			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 3, true));
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 2));
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
-			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, AnimalEntity.class, true, true));
-			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(6, new SwimGoal(this));
+			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, AgeableEntity.class, true, true));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, AmbientEntity.class, true, true));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, AnimalEntity.class, true, true));
+			this.goalSelector.addGoal(7, new BreakBlockGoal(Blocks.GRASS_BLOCK, this, 100, (int) 30));
+			this.goalSelector.addGoal(8, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(9, new SwimGoal(this));
 		}
 
 		@Override
@@ -158,6 +165,8 @@ public class KaczuchaEntity extends ImperialModElements.ModElement {
 			if (source == DamageSource.FALL)
 				return false;
 			if (source == DamageSource.DROWN)
+				return false;
+			if (source == DamageSource.ANVIL)
 				return false;
 			if (source == DamageSource.DRAGON_BREATH)
 				return false;
