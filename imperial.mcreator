@@ -759,6 +759,14 @@
       ],
       "category": "music",
       "subtitle": "Glory to Arztocka"
+    },
+    {
+      "name": "arztockavictory",
+      "files": [
+        "victory"
+      ],
+      "category": "music",
+      "subtitle": "End Shift"
     }
   ],
   "language_map": {
@@ -767,9 +775,10 @@
       "block.imperial.stalowe_stairs": "Stalowe Schody",
       "block.imperial.stalowe_pressure_plate": "Stalowa P³yta Naciskowa",
       "item.imperial.infected_ingot": "Infected",
-      "item.imperial.music_passport": "Music Passport",
-      "block.imperial.infected_ore": "Infected Ore",
       "block.imperial.uran_ore": "Uran Ore",
+      "block.imperial.infected_ore": "Infected Ore",
+      "item.imperial.music_passport": "Music Passport",
+      "subtitles.arztockavictory": "End Shift",
       "item.imperial.infected_armor_leggings": "Infected Leggings",
       "item.imperial.stalowe_axe": "Stalowa Siekiera",
       "block.imperial.stalowe_button": "Stalowy Przycisk",
@@ -810,9 +819,10 @@
       "block.imperial.stalowe_stairs": "Stalowe Stairs",
       "block.imperial.stalowe_pressure_plate": "Stalowe Pressure Plate",
       "item.imperial.infected_ingot": "Infected",
-      "item.imperial.music_passport": "Music Passport",
-      "block.imperial.infected_ore": "Infected Ore",
       "block.imperial.uran_ore": "Uran Ore",
+      "block.imperial.infected_ore": "Infected Ore",
+      "item.imperial.music_passport": "Music Passport",
+      "subtitles.arztockavictory": "End Shift",
       "item.imperial.infected_armor_leggings": "Infected Leggings",
       "item.imperial.stalowe_axe": "Stalowe Axe",
       "block.imperial.stalowe_button": "Stalowe Button",

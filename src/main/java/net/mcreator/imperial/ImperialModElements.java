@@ -47,6 +47,8 @@ public class ImperialModElements {
 	public ImperialModElements() {
 		sounds.put(new ResourceLocation("imperial", "glorytoarztocka"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("imperial", "glorytoarztocka")));
+		sounds.put(new ResourceLocation("imperial", "arztockavictory"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("imperial", "arztockavictory")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("imperial").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
