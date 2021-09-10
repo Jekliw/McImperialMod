@@ -624,6 +624,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "balonik"
+    },
+    {
+      "name": "Balonikrec",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "balonikrec"
     }
   ],
   "variable_elements": [],
