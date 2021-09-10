@@ -279,6 +279,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gruszka"
+    },
+    {
+      "name": "Poczatki",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poczatki"
     }
   ],
   "variable_elements": [],
@@ -298,7 +307,9 @@
       "block.imperial.stalowe_slab": "Stalowe P³yty",
       "item.imperial.stalowe_sword": "Stalowy Miecz",
       "block.imperial.stalowe_log": "Stalowa K³oda",
+      "advancements.poczatki.descr": "Zainstaluj moda!",
       "block.imperial.stalowe_leaves": "Stalowe Liœcie",
+      "advancements.poczatki.title": "Poczatki",
       "block.imperial.stalowe_wood": "Stalowe Drewno",
       "item.imperial.stalowe_hoe": "Stalowa Motyka"
     },
@@ -316,7 +327,9 @@
       "block.imperial.stalowe_slab": "Stalowe Slab",
       "item.imperial.stalowe_sword": "Stalowe Sword",
       "block.imperial.stalowe_log": "Stalowe Log",
+      "advancements.poczatki.descr": "Zainstaluj moda!",
       "block.imperial.stalowe_leaves": "Stalowe Leaves",
+      "advancements.poczatki.title": "Poczatki",
       "block.imperial.stalowe_wood": "Stalowe Wood",
       "item.imperial.stalowe_hoe": "Stalowe Hoe"
     }
