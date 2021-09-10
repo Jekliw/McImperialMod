@@ -1,0 +1,36 @@
+{
+  "group": "imperial",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "imperial:infected_ingot"
+    },
+    "1": {
+      "item": "imperial:infected_ingot"
+    },
+    "2": {
+      "item": "imperial:infected_ingot"
+    },
+    "3": {
+      "item": "imperial:infected_ingot"
+    },
+    "5": {
+      "item": "imperial:infected_ingot"
+    },
+    "6": {
+      "item": "imperial:infected_ingot"
+    },
+    "8": {
+      "item": "imperial:infected_ingot"
+    }
+  },
+  "result": {
+    "item": "imperial:infected_armor_leggings",
+    "count": 1
+  }
+}

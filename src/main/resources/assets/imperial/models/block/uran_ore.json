@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "imperial:blocks/uran_ore",
+    "particle": "imperial:blocks/uran_ore"
+  }
+}

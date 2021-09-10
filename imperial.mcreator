@@ -288,6 +288,255 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "poczatki"
+    },
+    {
+      "name": "UranIngot",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uran_ingot"
+    },
+    {
+      "name": "UranOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uran_ore"
+    },
+    {
+      "name": "UranBlock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uran_block"
+    },
+    {
+      "name": "UranOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uran_ore_block_recipe"
+    },
+    {
+      "name": "UranBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uran_block_ore_recipe"
+    },
+    {
+      "name": "UranOreSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uran_ore_smelting"
+    },
+    {
+      "name": "InfectedIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_ingot"
+    },
+    {
+      "name": "InfectedOre",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_ore"
+    },
+    {
+      "name": "InfectedBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_block"
+    },
+    {
+      "name": "InfectedOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_ore_block_recipe"
+    },
+    {
+      "name": "InfectedBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_block_ore_recipe"
+    },
+    {
+      "name": "InfectedOreSmelting",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_ore_smelting"
+    },
+    {
+      "name": "InfectedPickaxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_pickaxe"
+    },
+    {
+      "name": "InfectedAxe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_axe"
+    },
+    {
+      "name": "InfectedSword",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_sword"
+    },
+    {
+      "name": "InfectedShovel",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_shovel"
+    },
+    {
+      "name": "InfectedHoe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_hoe"
+    },
+    {
+      "name": "InfectedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_pickaxe_recipe"
+    },
+    {
+      "name": "InfectedAxeRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_axe_recipe"
+    },
+    {
+      "name": "InfectedSwordRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_sword_recipe"
+    },
+    {
+      "name": "InfectedShovelRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_shovel_recipe"
+    },
+    {
+      "name": "InfectedHoeRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_hoe_recipe"
+    },
+    {
+      "name": "InfectedArmor",
+      "type": "armor",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "InfectedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_armor_helmet_recipe"
+    },
+    {
+      "name": "InfectedArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_armor_body_recipe"
+    },
+    {
+      "name": "InfectedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_armor_leggings_recipe"
+    },
+    {
+      "name": "InfectedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -295,43 +544,73 @@
   "language_map": {
     "pl_pl": {
       "block.imperial.stalowe_fence_gate": "Stalowy P³ot",
-      "item.imperial.stalowe_shovel": "Stalowa £opata",
       "block.imperial.stalowe_stairs": "Stalowe Schody",
       "block.imperial.stalowe_pressure_plate": "Stalowa P³yta Naciskowa",
-      "item.imperial.gruszka": "Gruszka",
-      "block.imperial.stalowe_fence": "Stalowa Furtka",
-      "block.imperial.stalowe_planks": "Stalowe Deski",
+      "item.imperial.infected_ingot": "Infected",
+      "block.imperial.uran_ore": "Uran Ore",
+      "block.imperial.infected_ore": "Infected Ore",
+      "item.imperial.infected_armor_leggings": "Infected Leggings",
       "item.imperial.stalowe_axe": "Stalowa Siekiera",
       "block.imperial.stalowe_button": "Stalowy Przycisk",
+      "block.imperial.uran_block": "Block of Uran",
+      "item.imperial.infected_shovel": "Infected Shovel",
+      "block.imperial.stalowe_log": "Stalowa K³oda",
+      "item.imperial.infected_pickaxe": "Infected Pickaxe",
+      "block.imperial.stalowe_leaves": "Stalowe Liœcie",
+      "block.imperial.infected_block": "Block of Infected",
+      "item.imperial.stalowe_shovel": "Stalowa £opata",
+      "item.imperial.gruszka": "Gruszka",
+      "item.imperial.uran_ingot": "Uran",
+      "item.imperial.infected_armor_chestplate": "Infected Chestplate",
+      "block.imperial.stalowe_fence": "Stalowa Furtka",
+      "item.imperial.infected_sword": "Infected Sword",
+      "item.imperial.infected_axe": "Infected Axe",
+      "item.imperial.infected_armor_helmet": "Infected Helmet",
+      "block.imperial.stalowe_planks": "Stalowe Deski",
       "item.imperial.stalowe_pickaxe": "Stalowy Kilof",
       "block.imperial.stalowe_slab": "Stalowe P³yty",
       "item.imperial.stalowe_sword": "Stalowy Miecz",
-      "block.imperial.stalowe_log": "Stalowa K³oda",
       "advancements.poczatki.descr": "Zainstaluj moda!",
-      "block.imperial.stalowe_leaves": "Stalowe Liœcie",
+      "item.imperial.infected_hoe": "Infected Hoe",
       "advancements.poczatki.title": "Poczatki",
       "block.imperial.stalowe_wood": "Stalowe Drewno",
-      "item.imperial.stalowe_hoe": "Stalowa Motyka"
+      "item.imperial.stalowe_hoe": "Stalowa Motyka",
+      "item.imperial.infected_armor_boots": "Infected Boots"
     },
     "en_us": {
       "block.imperial.stalowe_fence_gate": "Stalowe Fence Gate",
-      "item.imperial.stalowe_shovel": "Stalowe Shovel",
       "block.imperial.stalowe_stairs": "Stalowe Stairs",
       "block.imperial.stalowe_pressure_plate": "Stalowe Pressure Plate",
-      "item.imperial.gruszka": "Gruszka",
-      "block.imperial.stalowe_fence": "Stalowe Fence",
-      "block.imperial.stalowe_planks": "Stalowe Planks",
+      "item.imperial.infected_ingot": "Infected",
+      "block.imperial.uran_ore": "Uran Ore",
+      "block.imperial.infected_ore": "Infected Ore",
+      "item.imperial.infected_armor_leggings": "Infected Leggings",
       "item.imperial.stalowe_axe": "Stalowe Axe",
       "block.imperial.stalowe_button": "Stalowe Button",
+      "block.imperial.uran_block": "Block of Uran",
+      "item.imperial.infected_shovel": "Infected Shovel",
+      "block.imperial.stalowe_log": "Stalowe Log",
+      "item.imperial.infected_pickaxe": "Infected Pickaxe",
+      "block.imperial.stalowe_leaves": "Stalowe Leaves",
+      "block.imperial.infected_block": "Block of Infected",
+      "item.imperial.stalowe_shovel": "Stalowe Shovel",
+      "item.imperial.gruszka": "Gruszka",
+      "item.imperial.uran_ingot": "Uran",
+      "item.imperial.infected_armor_chestplate": "Infected Chestplate",
+      "block.imperial.stalowe_fence": "Stalowe Fence",
+      "item.imperial.infected_sword": "Infected Sword",
+      "item.imperial.infected_axe": "Infected Axe",
+      "item.imperial.infected_armor_helmet": "Infected Helmet",
+      "block.imperial.stalowe_planks": "Stalowe Planks",
       "item.imperial.stalowe_pickaxe": "Stalowe Pickaxe",
       "block.imperial.stalowe_slab": "Stalowe Slab",
       "item.imperial.stalowe_sword": "Stalowe Sword",
-      "block.imperial.stalowe_log": "Stalowe Log",
       "advancements.poczatki.descr": "Zainstaluj moda!",
-      "block.imperial.stalowe_leaves": "Stalowe Leaves",
+      "item.imperial.infected_hoe": "Infected Hoe",
       "advancements.poczatki.title": "Poczatki",
       "block.imperial.stalowe_wood": "Stalowe Wood",
-      "item.imperial.stalowe_hoe": "Stalowe Hoe"
+      "item.imperial.stalowe_hoe": "Stalowe Hoe",
+      "item.imperial.infected_armor_boots": "Infected Boots"
     }
   },
   "foldersRoot": {

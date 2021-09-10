@@ -1,0 +1,12 @@
+{
+  "group": "imperial",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "imperial:uran_ore"
+  },
+  "result": {
+    "item": "imperial:uran_ingot"
+  }
+}
