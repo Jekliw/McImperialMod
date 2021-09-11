@@ -33,7 +33,7 @@ import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
-import net.minecraft.entity.ai.goal.BreakBlockGoal;
+import net.minecraft.entity.ai.goal.BreakDoorGoal;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.SpawnReason;
@@ -44,7 +44,6 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.imperial.procedures.KaczuchaThisEntityKillsAnotherOneProcedure;
@@ -115,11 +114,11 @@ public class KaczuchaEntity extends ImperialModElements.ModElement {
 			super.registerGoals();
 			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 3, true));
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 2));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
-			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, AgeableEntity.class, true, true));
-			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, AmbientEntity.class, true, true));
-			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, AnimalEntity.class, true, true));
-			this.goalSelector.addGoal(7, new BreakBlockGoal(Blocks.GRASS_BLOCK, this, 100, (int) 30));
+			this.goalSelector.addGoal(3, new BreakDoorGoal(this, e -> true));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, AgeableEntity.class, true, true));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, AmbientEntity.class, true, true));
+			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, AnimalEntity.class, true, true));
 			this.goalSelector.addGoal(8, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(9, new SwimGoal(this));
 		}
